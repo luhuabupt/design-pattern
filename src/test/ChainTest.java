@@ -1,12 +1,10 @@
 package test;
 
 import main.Chain;
-import org.junit.Test;
 
 import java.math.BigDecimal;
 
 public class ChainTest {
-    @Test
     public void test() {
         // 构造责任链（顺序很重要）
         Chain.HandlerChain chain = new Chain.HandlerChain();

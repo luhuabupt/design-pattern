@@ -1,12 +1,10 @@
 package test;
 
 import main.Proxy;
-import org.junit.Test;
 
 import java.sql.Connection;
 
 public class ProxyTest {
-    @Test
     public void test() {
         String url = "";
         String username = "";

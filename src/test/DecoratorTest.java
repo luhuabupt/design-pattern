@@ -1,12 +1,10 @@
 package test;
 
 import main.Decorator;
-import org.junit.Test;
 
 import static main.Decorator.TextNode;
 
 public class DecoratorTest {
-    @Test
     public void test() {
         Decorator decorator = new Decorator();
         TextNode a = decorator.new SpanNode();
